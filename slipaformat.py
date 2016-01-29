@@ -29,6 +29,8 @@ clear formating. So I used a circumvent steps to wriggle out the mess.
 For repeated tasks, this code may be combined and simplified. I kept the creating new
 files because, it is the easy way to check formatting and other things. It would save
 lot time  
+
+Silapathikarm in TVU site http://www.tamilvu.org/slet/l3100/l3100lf1.jsp
 '''
 
 for filename1 in os.listdir('D:\\silpa\\silpa\\'):
