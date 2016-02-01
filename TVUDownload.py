@@ -38,7 +38,7 @@ for i in range(startingpagenumber, finalpagenumber + 1):
     # reply=requests.get(url, proxies=proxies)
     reply = requests.get(url)
     print url, 'Status is ' + str(reply.status_code)
-    filename = str(i) + '.html'
+    filename = str(i).zfill(5) + '.html'
     filetowrite = open(filename, 'w')
     filetowrite.write(reply.content)
     filetowrite.close()
